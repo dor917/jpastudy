@@ -35,7 +35,7 @@ public class JpaMain {
                     .setMaxResults(8)
                     .getResultList();
             for (Member member : result) {
-                System.out.println("member = " + member.getName());
+//                System.out.println("member = " + member.getName());
             }
             tx.commit();
         } catch (Exception e) {
